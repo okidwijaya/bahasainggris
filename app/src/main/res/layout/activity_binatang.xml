@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BinatangActivity"
+    android:layout_margin="2dp"
+    android:background="@drawable/bg1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/binatangRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"/>
+<!--    <HorizontalScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scrollbars="none"-->
+<!--        android:scrollbarSize="0dp"-->
+<!--        android:scrollbarStyle="insideOverlay"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        tools:ignore="MissingConstraints,UselessLeaf">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="20dp">-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/anjing"-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:background="@drawable/binatang_anjing"-->
+<!--                android:contentDescription="@string/anjing" />-->
+
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/badak"-->
+<!--                android:background="@drawable/binatang_badak"-->
+<!--                android:contentDescription="@string/badak" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/domba"-->
+<!--                android:background="@drawable/binatang_domba"-->
+<!--                android:contentDescription="@string/domba" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/gajah"-->
+<!--                android:background="@drawable/binatang_gajah"-->
+<!--                android:contentDescription="@string/gajah" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/harimau"-->
+<!--                android:background="@drawable/binatang_harimau"-->
+<!--                android:contentDescription="@string/harimau" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/jerapah"-->
+<!--                android:background="@drawable/binatang_jerapah"-->
+<!--                android:contentDescription="@string/jerapah" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/kucing"-->
+<!--                android:background="@drawable/binatang_kucing"-->
+<!--                android:contentDescription="@string/kucing" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/kurakura"-->
+<!--                android:background="@drawable/binatang_kura"-->
+<!--                android:contentDescription="@string/kurakura" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/lumbalumba"-->
+<!--                android:background="@drawable/binatang_lumba"-->
+<!--                android:contentDescription="@string/lumbalumba" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/monyet"-->
+<!--                android:background="@drawable/binatang_monyet"-->
+<!--                android:contentDescription="@string/monyet" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/singa"-->
+<!--                android:background="@drawable/binatang_singa"-->
+<!--                android:contentDescription="@string/singa" />-->
+<!--            <ImageButton-->
+<!--                android:layout_width="160dp"-->
+<!--                android:layout_height="160dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:id="@+id/zebra"-->
+<!--                android:background="@drawable/binatang_zebra"-->
+<!--                android:contentDescription="@string/zebra" />-->
+<!--        </LinearLayout>-->
+
+<!--    </HorizontalScrollView>-->
+
+    <ImageView
+        android:id="@+id/tampil_binatang"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/pop_binatang"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/popbinatang" />
+
+    <ImageButton
+        android:id="@+id/buttonHelp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/help"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/help2"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/back2"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuahdansayurActivity"
+    android:layout_margin="2dp"
+    android:background="@drawable/bg1">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:id="@+id/apel"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bs_apel"
+                android:contentDescription="@string/apel" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/bawangmerah"
+                android:background="@drawable/bs_bawangmerah"
+                android:contentDescription="@string/bawangmerah" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/bawangputih"
+                android:background="@drawable/bs_bawangputih"
+                android:contentDescription="@string/bawangputih" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/brokoli"
+                android:background="@drawable/bs_brokoli"
+                android:contentDescription="@string/brokoli" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/cabai"
+                android:background="@drawable/bs_cabai"
+                android:contentDescription="@string/cabai" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jeruk"
+                android:background="@drawable/bs_jeruk"
+                android:contentDescription="@string/jeruk" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/mangga"
+                android:background="@drawable/bs_mangga"
+                android:contentDescription="@string/mangga" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/nanas"
+                android:background="@drawable/bs_nanas"
+                android:contentDescription="@string/nanas" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/semangka"
+                android:background="@drawable/bs_semangka"
+                android:contentDescription="@string/semangka" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/timun"
+                android:background="@drawable/bs_timun"
+                android:contentDescription="@string/timun" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tomat"
+                android:background="@drawable/bs_tomat"
+                android:contentDescription="@string/tomat" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/wortel"
+                android:background="@drawable/bs_wortel"
+                android:contentDescription="@string/wortel" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/tampil_buahdansayur"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/pop_buahdansayur"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/popbuahdansayur" />
+
+    <ImageButton
+        android:id="@+id/buttonHelp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/help"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/help3"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/back3"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

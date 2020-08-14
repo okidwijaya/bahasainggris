@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TubuhActivity"
+    android:layout_margin="2dp"
+    android:background="@drawable/bg1">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:id="@+id/kepala"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/tubuh_kepala"
+                android:contentDescription="@string/kepala" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/rambut"
+                android:background="@drawable/tubuh_rambut"
+                android:contentDescription="@string/rambut" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/alis"
+                android:background="@drawable/tubuh_alis"
+                android:contentDescription="@string/alis" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/mata"
+                android:background="@drawable/tubuh_mata"
+                android:contentDescription="@string/alis" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/hidung"
+                android:background="@drawable/tubuh_hidung"
+                android:contentDescription="@string/hidung" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/mulut"
+                android:background="@drawable/tubuh_mulut"
+                android:contentDescription="@string/mulut" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/telinga"
+                android:background="@drawable/tubuh_telinga"
+                android:contentDescription="@string/telinga" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tangan"
+                android:background="@drawable/tubuh_tangan"
+                android:contentDescription="@string/tangan" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/jari"
+                android:background="@drawable/tubuh_jari"
+                android:contentDescription="@string/jari" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/lutut"
+                android:background="@drawable/tubuh_lutut"
+                android:contentDescription="@string/lutut" />
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/kaki"
+                android:background="@drawable/tubuh_kaki"
+                android:contentDescription="@string/kaki" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/tampil_tubuh"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pop_tubuh"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/poptubuh" />
+
+    <ImageButton
+        android:id="@+id/buttonHelp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/help"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/help6"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/back6"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
